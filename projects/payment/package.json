@@ -1,0 +1,31 @@
+{
+  "name": "payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "start": "vite --open",
+    "build": "tsc --noEmit && vite build",
+    "watch": "vite build --watch",
+    "build:watch": "vite build --watch",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^6.3.0",
+    "typescript": "~5.9.2",
+    "vite": "^8.3.8"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "type": "module"
+}
