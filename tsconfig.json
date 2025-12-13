@@ -13,7 +13,8 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "ES2022",
-    "module": "preserve"
+    "module": "preserve",
+    "rootDir": "."
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
@@ -21,5 +22,46 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/chat/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/chat/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/catalog/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/catalog/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/recommendations/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/recommendations/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/payment/tsconfig.json"
+    },
+    {
+      "path": "./projects/chat-backend/tsconfig.json"
+    },
+    {
+      "path": "./projects/market-backend/tsconfig.json"
+    },
+    {
+      "path": "./projects/shell/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/shell/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/cart/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/cart/tsconfig.spec.json"
+    }
+  ]
 }
