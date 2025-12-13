@@ -1,0 +1,30 @@
+{
+  "name": "payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc build/build-mfe.ts --outDir dist && node dist/build-mfe.js payment",
+    "build:watch": "nodemon --watch src --ext tsx,json --exec \"tsc build/build-mfe.ts --outDir dist && node dist/build-mfe.js payment\"",
+    "start": "live-server ../../dist/payment --port=4204 --cors",
+    "dev": "concurrently -k \"npm run build:watch\" \"npm run start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@softarc/native-federation": "^1.0.0",
+    "@softarc/native-federation-esbuild": "^1.0.0",
+    "@types/node": "^18.7.13",
+    "concurrently": "^5.3.0",
+    "esbuild": "^0.15.5",
+    "json5": "^2.2.1",
+    "live-server": "^1.1.0",
+    "nodemon": "^3.1.11",
+    "typescript": "~5.9.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.2.0"
+  }
+}

@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'tailwindcss';
+
+a,
+button,
+select {
+  @apply cursor-pointer;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.main-bg {
+  @apply bg-radial-[at_5%_5%] from-neutral-800 to-neutral-950 to-75%;
+}
