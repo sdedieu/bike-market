@@ -1,0 +1,6 @@
+{
+  "chat": "http://localhost:4201/remoteEntry.json",
+  "catalog": "http://localhost:4202/remoteEntry.json",
+  "sales": "http://localhost:4203/remoteEntry.json",
+  "payment": "http://localhost:4204/remoteEntry.json"
+}
